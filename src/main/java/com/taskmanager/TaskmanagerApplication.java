@@ -31,7 +31,10 @@ public class TaskmanagerApplication {
 			
 			@Override
 			public void run(String... arg0) throws Exception {
-					
+				
+				/*
+				 * Set the values by default
+				 */
 				Task task = new Task();
 				task.setName("Morning");
 				task.setLabel("Office");
