@@ -1,14 +1,18 @@
-# Getting Started
+# Task Manager
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### Geeting Started
+Uing Task Manager application user can manage his/her daily task. 
+User can able to categorize their task based in task Name, label, prioritze their task based in predefned Priority.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+### Installing
+* Download the project 
+* Unzip the zip file and extract to a folder.
+* In Eclipse, Click File > Import > Existing Maven Project.
+* Navigate or type in the path of the folder where you extracted the ZIP file and click finish.
+* Once you click Finish, Maven will take some time to download all the dependencies and initialize the project.
+* Run the file name as TaskmanagerApplication.java
+* Defalult Spring Boot application will start in port:8080 (http)
 
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+### Output
+* open any browser and hit the URL as http://localhost:8080
 
