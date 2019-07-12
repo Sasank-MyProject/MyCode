@@ -17,7 +17,9 @@ public class LabelController {
 	@Autowired
 	private LabelRepository labelrepository;
 	
-	//get all the date into list 
+	/*
+	 * Get List of Label
+	 */
 	@RequestMapping(value = "/labels", method= RequestMethod.GET)
 	public List<Label> getListOfLabel(){
 		List<Label> labels = (List<Label>) labelrepository.findAll();		
@@ -25,6 +27,11 @@ public class LabelController {
 		return labels;
 	}
 	
+	/*
+	 * POST Method which accept Label object 
+	 * Persist Label object into database.
+	 * return Label object with Id.  
+	 */
 	@RequestMapping(value="/labels", method=RequestMethod.POST)
 	 public Label saveLabel(@RequestBody Label labels) {
 		return labelrepository.save(labels); 
